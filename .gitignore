@@ -1,2 +1,3 @@
 .precomp
-/Pod-To-Markdown-[0-9]*
+/Pod-To-Markdown-*
+*.rakucov

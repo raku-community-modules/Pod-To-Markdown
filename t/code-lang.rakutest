@@ -37,4 +37,4 @@ is pod2markdown($=pod, :no-fenced-codeblocks), q:to/EOF/, 'Pod with lang and :no
     Some code without lang set here
 EOF
 
-# vim:set ft=raku:
+# vim: expandtab shiftwidth=4

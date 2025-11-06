@@ -40,4 +40,4 @@ Paragraph paragraph
 Block paragraph
 EOF
 
-# vim:set ft=raku:
+# vim: expandtab shiftwidth=4

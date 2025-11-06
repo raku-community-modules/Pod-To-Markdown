@@ -1,5 +1,6 @@
 use Test;
 use Pod::To::Markdown;
+
 plan 1;
 
 =begin pod
@@ -46,4 +47,4 @@ This text contains a link with label to [TPF](https://perlfoundation.org/).
 And awesome [link **with *formatting***](http://p6weekly.wordpress.com/)!
 EOF
 
-# vim:set ft=raku:
+# vim: expandtab shiftwidth=4

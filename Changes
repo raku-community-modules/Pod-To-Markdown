@@ -1,6 +1,11 @@
 Revision history for Pod-To-Markdown
 
 {{$NEXT}}
+    - First release as a Raku Community module
+    - Fix rendering of role-extended Attributes
+    - Modernize and streamline code
+    - Add CI badge for each OS
+    - Update dependency on Pod::To::HTML
 
 0.2.1  2021-04-04T22:28:46-04:00
     - Handle =defn (Pod::Defn) content (Issue #24)

@@ -1,0 +1,71 @@
+=begin pod
+
+=head1 NAME
+
+Pod::To::Markdown - Render Pod as Markdown
+
+=head1 SYNOPSIS
+
+From command line:
+
+=begin output
+$ raku --doc=Markdown lib/To/Class.rakumod
+=end output
+
+From Raku:
+
+=begin code :lang<raku>
+use Pod::To::Markdown;  # exports pod2markdown
+
+print pod2markdown($=pod);
+
+=head1 DESCRIPTION
+
+=head2 method render
+
+=begin code :lang<raku>
+method render($pod, Bool :$no-fenced-codeblocks --> Str)
+=end code
+
+=head3 Render Pod as Markdown
+
+To render without fenced codeblocks (C<```>), as some markdown engines
+don't support this, use the :no-fenced-codeblocks option. If you want to
+have code show up as C<```raku> to enable syntax highlighting on
+certain markdown renderers, use:
+
+=begin output
+=begin code :lang<raku>
+=end output
+
+=head2 sub pod2markdown
+
+=begin code :lang<raku>
+sub pod2markdown($pod, Bool :$no-fenced-codeblocks --> Str)
+=end code
+
+Render Pod as Markdown, see .render()
+
+=head1 AUTHORS
+
+=item Jorn van Engelen
+=item Tim Smith
+=item Tim Siegel
+
+and many others.
+
+=head1 COPYRIGHT AND LICENSE
+
+Copyright 2014 - 2015 Jorn van Engelen
+
+Copyright 2016 - 2020 Tim Smith
+
+Copyright 2021 - 2024 Tim Siegel
+
+Copyright 2025 The Raku Community
+
+This library is free software; you can redistribute it and/or modify it under the Artistic License 2.0.
+
+=end pod
+
+# vim: expandtab shiftwidth=4

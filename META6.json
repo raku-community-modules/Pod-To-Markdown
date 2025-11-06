@@ -1,34 +1,35 @@
 {
-  "auth": "github:softmoth",
+  "auth": "zef:raku-community-modules",
   "authors": [
+    "Jorn van Engelen",
     "Tim Siegel",
-    "Jorn van Engelen"
+    "Tim Smith"
   ],
   "build-depends": [
   ],
   "depends": [
-    "Pod::To::HTML:auth<github:Raku>"
+    "Pod::To::HTML:ver<0.9.0+>:auth<zef:raku-community-modules>"
   ],
-  "description": "Render Raku Pod as Markdown",
+  "description": "Render Rakudoc as Markdown",
   "license": "Artistic-2.0",
   "name": "Pod::To::Markdown",
-  "perl": "6.d",
-  "production": 1,
+  "production": true,
   "provides": {
     "Pod::To::Markdown": "lib/Pod/To/Markdown.rakumod"
   },
   "raku": "6.d",
   "resources": [
   ],
-  "source-url": "https://github.com/softmoth/raku-Pod-To-Markdown.git",
+  "source-url": "https://github.com/raku-community-modules/Pod-To-Markdown.git",
   "support": {
     "bugtracker": "https://github.com/softmoth/raku-Pod-To-Markdown/issues",
+    "email": "community@raku.org",
     "source": "https://github.com/softmoth/raku-Pod-To-Markdown.git"
   },
   "tags": [
-    "markdown",
-    "pod",
-    "text"
+    "MARKDOWN",
+    "POD",
+    "TEXT"
   ],
   "test-depends": [
   ],

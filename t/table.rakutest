@@ -111,4 +111,4 @@ is pod2markdown($=pod[$ix++]),
     EOF
     'Issue 26: Hack converts E<...> to &...; in table';
 
-# vim:set ft=raku:
+# vim: expandtab shiftwidth=4

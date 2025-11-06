@@ -1,5 +1,6 @@
 use Test;
 use Pod::To::Markdown;
+
 plan 2;
 
 #| asdf1
@@ -102,4 +103,4 @@ b is private
 Method asdf2
 EOF
 
-# vim:set ft=raku:
+# vim: expandtab shiftwidth=4

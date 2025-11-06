@@ -3,6 +3,7 @@
   "authors": [
     "Jorn van Engelen",
     "Tim Siegel",
+    "Samantha McVey",
     "Tim Smith"
   ],
   "build-depends": [
@@ -33,5 +34,5 @@
   ],
   "test-depends": [
   ],
-  "version": "0.2.1"
+  "version": "0.2.2"
 }

@@ -1,6 +1,8 @@
 Revision history for Pod-To-Markdown
 
 {{$NEXT}}
+
+0.2.2  2025-11-06T17:29:20+01:00
     - First release as a Raku Community module
     - Fix rendering of role-extended Attributes
     - Modernize and streamline code

@@ -49,6 +49,8 @@ AUTHORS
 
   * Tim Smith
 
+  * Samantha McVey
+
   * Tim Siegel
 
 and many others.

@@ -1,6 +1,6 @@
 use Pod::To::HTML:ver<0.9.0+>:auth<zef:raku-community-modules>;
 
-unit class Pod::To::Markdown:ver<0.2.1>:auth<zef:raku-community-modules>;
+unit class Pod::To::Markdown:ver<0.2.2>:auth<zef:raku-community-modules>;
 
 #my sub Debug(&code) { &code() }
 my sub Debug(&code) { }
